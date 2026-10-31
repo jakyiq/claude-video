@@ -15,6 +15,8 @@ Run the bundled Python script. With the **gemini** engine (a `GEMINI_API_KEY` is
 
 `SKILL_DIR` is the absolute directory containing this SKILL.md; `scripts/` sits beside it.
 
+On Jaky's machine (Kiro CLI, Windows), `SKILL_DIR` is `C:\Users\Administrator\.kiro\skills\watch` and the interpreter is `python` (3.12).
+
 Commands below use `python3` for macOS/Linux. On Windows, verify a working Python 3.10+ with `python --version` or `py -3 --version` and use that interpreter. `python3` is not always a Store alias; inspect the actual result. In PowerShell use `$SKILL_DIR` rather than Bash variable syntax, for example:
 
 ```powershell
